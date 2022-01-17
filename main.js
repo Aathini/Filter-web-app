@@ -1,6 +1,5 @@
 function preload() {
-
-}
+    lipstick = loadImage("https://i.postimg.cc/PxFvYgkv/l1.png")
 function setup() {
 canvas_var = createCanvas(300,300);
 canvas_var.center();
@@ -27,4 +26,4 @@ function gotPoses(results) {
 }
 function draw() {
 image(video_var, 0,0, 300,300);
-}
+}}
